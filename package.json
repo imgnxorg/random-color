@@ -2,16 +2,19 @@
   "name": "@imgnx/random-color",
   "packageManager": "yarn@4.5.3",
   "type": "module",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imgnxorg/random-color"
+  },
+  "version": "1.2.3",
   "description": "Returns a random color from the default export.",
   "main": "random-color",
   "scripts": {
     "start": "node random-color",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "keywords": [
     "random",
@@ -20,6 +23,5 @@
     "spark"
   ],
   "author": "Donald Moore",
-  "license": "0BSD",
-  "devDependencies": {}
+  "license": "0BSD"
 }
