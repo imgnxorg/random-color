@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/imgnxorg/random-color"
   },
-  "version": "1.2.3",
+  "version": "1.2.3-alpha",
   "description": "Returns a random color from the default export.",
   "main": "random-color",
   "scripts": {
